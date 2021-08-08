@@ -22,13 +22,10 @@ public class ClinkedList {
 		System.out.println(l);
 		l.remove(3);
 		System.out.println(l);
-		String s;
-		s=l.toString();
-		System.out.println(s);
-		StringBuilder b=new StringBuilder();
-		StringBuilder r=b.reverse();
-		r.append(s);
-		System.out.println(r);
+		
+		l.remove();
+		l.remove();
+		System.out.println(l);
 		
 //		Iterator<String> itr=l.iterator();
 //		while(itr.hasNext()) {
